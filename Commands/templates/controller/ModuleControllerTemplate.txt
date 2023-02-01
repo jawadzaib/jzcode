@@ -1,0 +1,29 @@
+<?php 
+namespace [MODULE_NAME]\Controllers;
+
+/*
+* ControllerName: [CONTROLLER_NAME]Controller
+* Author:	JZCoding
+* Author URI:	http://jzcoding.com
+*/
+
+use Core\Controller;
+
+class [CONTROLLER_NAME]Controller extends Controller {
+	public function __construct($controller, $action, $module) {
+		parent::__construct($controller, $action, $module);
+		[LOAD_LAYOUT]
+	}
+
+	/**
+	* @method 
+	* @return void
+	*/
+	public function indexAction() {
+		/*
+		*  do some logic here
+		*/
+		[INDEX_VIEW]
+	}
+[CRUD_METHODS]
+}

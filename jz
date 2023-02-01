@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+// require __DIR__ . '/vendor/autoload.php';
+require __DIR__.'/bootstrap.php';
+
+use Symfony\Component\Console\Application;
+
+use Commands\AppInstallCommand;
+use Commands\GenerateControllerCommand;
+use Commands\GenerateModelCommand;
+use Commands\GenerateModuleCommand;
+use Commands\GenerateServiceCommand;
+use Commands\GenerateRepositoryCommand;
+
+$application = new Application();
+
+# add our commands
+$application->add(new AppInstallCommand());
+$application->add(new GenerateControllerCommand());
+$application->add(new GenerateModelCommand());
+$application->add(new GenerateModuleCommand());
+$application->add(new GenerateServiceCommand());
+$application->add(new GenerateRepositoryCommand());
+
+$application->run();

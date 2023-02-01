@@ -1,0 +1,19 @@
+<?php 
+namespace [MODULE_CLASS_NAME];
+
+/*
+* Module: [MODULE_CLASS_NAME]
+* Author:	JZCoding
+* Author URI:	http://jzcoding.com
+*/
+
+use Core\Module;
+
+class [MODULE_CLASS_NAME] extends Module {
+	public function initialize() {
+		/*
+		* Register shortcodes here
+		* Register stylesheets and scripts
+		*/
+	}
+}

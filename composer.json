@@ -1,0 +1,14 @@
+{
+    "name": "jawadzaib/jzcode",
+    "require": {
+        "doctrine/orm": "^2.6.2",
+        "symfony/yaml": "2.*",
+        "karriere/json-decoder": "^2.1",
+        "symfony/console": "^4.2",
+        "symfony/process": "^4.2"
+    },
+    "autoload": {
+        "psr-0": {"": "app/models"},
+        "classmap": ["Commands"]
+    }
+}

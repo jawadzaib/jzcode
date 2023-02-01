@@ -1,0 +1,19 @@
+	/**
+	 * @return mixed
+	 */
+	public function [GETTER_METHOD]()
+	{
+	    return $this->[PROPERTY];
+	}
+
+	/**
+	 * @param mixed $[PROPERTY]
+	 *
+	 * @return self
+	 */
+	public function [SETTER_METHOD]($[PROPERTY])
+	{
+	    $this->[PROPERTY] = $[PROPERTY];
+
+	    return $this;
+	}

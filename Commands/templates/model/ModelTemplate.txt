@@ -1,0 +1,20 @@
+<?php 
+namespace App\Models;
+
+/*
+* ModelName: [MODEL_NAME]
+* Author:	JZCoding
+* Author URI:	http://jzcoding.com
+*/
+
+use Core\Model;
+
+[ENTITY_ANNOTATION]
+class [MODEL_NAME] extends Model {
+[MODEL_PROPERTIES]
+
+    public function __construct() {
+    }
+
+[MODEL_GETTERS_SETTERS]
+}

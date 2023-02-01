@@ -1,0 +1,13 @@
+<?php 
+namespace [NAMESPACE];
+
+/*
+* ServiceName: [SERVICE_NAME]Service
+* Author:	JZCoding
+* Author URI:	http://jzcoding.com
+*/
+
+use Core\Service;
+
+class [SERVICE_NAME]Service extends Service {
+}

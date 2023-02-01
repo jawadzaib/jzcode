@@ -1,0 +1,15 @@
+<?php 
+namespace [NAMESPACE];
+
+/*
+* ServiceName: [REPOSITORY_NAME]Repository
+* Author:	JZCoding
+* Author URI:	http://jzcoding.com
+*/
+
+
+use Core\Repository;
+
+class [REPOSITORY_NAME]Repository extends Repository {
+	
+}

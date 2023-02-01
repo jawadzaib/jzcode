@@ -1,0 +1,10 @@
+.auth-form {
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 100px;
+}
+.auth-form h1 {
+	text-align: center;
+    background: #eee;
+    padding: 10px;
+}

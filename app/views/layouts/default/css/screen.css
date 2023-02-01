@@ -1,0 +1,12 @@
+/*Do your custom style here*/
+
+footer {
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 50px;
+	background: #eee;
+	padding: 10px;		
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}

@@ -1,0 +1,37 @@
+	/**
+	* @method 
+	* @return void
+	*/
+	public function newAction() {
+		[FORM_VIEW]
+	}
+
+	/**
+	* @method 
+	* @param mixed $id
+	* @return void
+	*/
+	public function editAction($id) {
+		[FORM_VIEW]
+	}
+
+	/**
+	* @method 
+	* @return void
+	*/
+	public function saveAction() {
+		/*
+		*  do some logic here
+		*/
+	}
+
+	/**
+	* @method 
+	* @param mixed $id
+	* @return void
+	*/
+	public function deleteAction($id) {	
+		/*
+		*  do some logic here
+		*/
+	}
